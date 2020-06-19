@@ -2,9 +2,11 @@ package oop.abstraction;
 
 public class Toyota extends MotorCar implements Car, Shape{
 
+	@Override
 	public void shape() {
 		System.out.println("Every car must have fixed 6 foot size");	
 	}	
+	@Override
 	public void start() {
 		System.out.println("The car will have motor engine and you can use key to turn it on");
 	}
